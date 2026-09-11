@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Flask
+instance/
+.webassets-cache
+
+# HuggingFace / Torch cache
+.cache/
+*.pt
+*.bin
+
+# Local database (generated at runtime — don't ship your personal journal)
+data/emotisense.db
+
+# Environment
+.env
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
